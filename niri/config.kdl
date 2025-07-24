@@ -13,7 +13,7 @@ input {
             // For more information, see xkeyboard-config(7).
 
             // For example:
-            // layout "us,ru"
+            layout "us,ru"
             // options "grp:win_space_toggle,compose:ralt,ctrl:nocaps"
         }
 
@@ -202,7 +202,7 @@ layout {
     // You can enable drop shadows for windows.
     shadow {
         // Uncomment the next line to enable shadows.
-        // on
+           on
 
         // By default, the shadow draws only around its window, and not behind it.
         // Uncomment this setting to make the shadow draw behind its window.
@@ -323,7 +323,7 @@ window-rule {
 
 // Example: enable rounded corners for all windows.
 // (This example rule is commented out with a "/-" in front.)
-/-window-rule {
+  window-rule {
     geometry-corner-radius 12
     clip-to-geometry true
 }
@@ -350,7 +350,7 @@ binds {
     Super+i hotkey-overlay-title="Open Browser: firefox" { spawn "firefox"; }
     // You can also use a shell. Do this if you need pipes, multiple commands, etc.
     // Note: the entire command goes as a single argument in the end.
-    // Mod+T { spawn "bash" "-c" "notify-send hello && exec alacritty"; }
+    // Mod+T { spawn "bash" "-c" "notify-send hello && exec kitty"; }
 
     // Example volume keys mappings for PipeWire & WirePlumber.
     // The allow-when-locked=true property makes them work even when the session is locked.
