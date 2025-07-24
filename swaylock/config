@@ -1,0 +1,25 @@
+# Background image (examples)
+# image=~/Pictures/wp11345800-gentoo-linux-wallpapers.jpg
+# image=~/Pictures/wallhaven-6orjlq.jpg
+# image=~/Pictures/gentoo.png
+# image=~/Pictures/IMG_0018-2-scaled.jpg
+
+# Font and text options
+font="FiraCode Nerd Font"
+font-size=20
+text-color=ffffff
+text-clear-color=cccccc
+text-ver-color=00ff00
+text-wrong-color=ff0000
+
+# Indicator options
+# indicator-radius=100
+# indicator-thickness=10
+# indicator-idle-visible
+# indicator-x-position=50%
+# indicator-y-position=50%
+
+# Effect options
+effect-scale=0.5
+effect-blur=5x3
+effect-vignette=0.2:0.5

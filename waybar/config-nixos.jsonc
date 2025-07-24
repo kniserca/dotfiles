@@ -1,0 +1,42 @@
+{
+    "layer": "top",
+    "modules-left": ["hyprland/workspaces", "sway/mode"],
+    "modules-center": ["clock"],
+    "modules-right": ["battery","cpu", "custom/launcher"],
+    "sway/window": {
+        "max-length": 50
+    
+    },
+        "hyprland/workspaces": {
+		"format": "{name} : {icon}",
+		"format-icons": {
+			"1": "",
+			"2": "",
+			"3": "",
+			"4": "",
+			"5": "",
+			"active": "",
+			"default": ""
+    		},
+        "persistent-workspaces": {
+      		"DP-1": [1, 2, 3, 4, 5]
+    		}
+    },    
+    "cpu": {
+     	"format": "{icon0} {icon1} {icon2} {icon3}",
+     	"format-icons": ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█"],
+    },
+    "battery": {
+        "format": "{capacity}% {icon}",
+        "format-icons": ["", "", "", "", ""]
+    },
+    "clock": {
+        "format-alt": "{:%a, %d. %b  %H:%M}"
+    },
+        "custom/launcher":{
+        "format": "",
+        "on-click": "wofi --show run",
+        "on-click-right": "killall wofi"
+          
+    },
+}
