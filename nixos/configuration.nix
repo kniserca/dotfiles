@@ -104,6 +104,7 @@
   curl
   git
   emacs
+  kakoune
   zsh
   btop
   kitty
