@@ -120,6 +120,7 @@
   nerd-fonts.symbols-only
   swaylock
   nwg-look
+  swww  
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
