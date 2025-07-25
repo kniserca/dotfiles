@@ -121,6 +121,7 @@
   swaylock
   nwg-look
   swww  
+  clang
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
