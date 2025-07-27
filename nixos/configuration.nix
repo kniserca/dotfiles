@@ -121,8 +121,10 @@
   nerd-fonts.symbols-only
   swaylock
   nwg-look
-  swww  
+  bluez
+  blueman
   clang
+  swww
   networkmanagerapplet
   ];
 
