@@ -7,7 +7,7 @@ set-option global ui_options terminal_status_on_top=true
 hook global ModuleLoaded clang %{ set-option global clang_options -std=c++20 }
 hook global ModuleLoaded tmux %{ alias global terminal tmux-terminal-vertical }
 
-colorscheme gruvbox-dark
+colorscheme gruvbox-dark 
 
 add-highlighter global/ show-matching -previous
 
@@ -242,3 +242,8 @@ hook global BufOpenFile .*/mail/.*/(cur|new|tmp)/[^/]+ %{ set-option buffer file
 # ───────────────────────────────────────────
 
 evaluate-commands %sh{ [ -f $kak_config/local.kak ] && echo "source $kak_config/local.kak" }
+
+# Softwrap long lines
+add-highlighter global/ wrap -word -indent
+
+
