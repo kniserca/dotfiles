@@ -49,10 +49,6 @@
   services.xserver.displayManager.gdm.enable = true;
   services.xserver.desktopManager.gnome.enable = true;
 
-  environment.variables = {
-  GSK_RENDERER = "ngl";
-  };
-
   # Configure keymap in X11
   services.xserver.xkb = {
     layout = "us";
@@ -92,6 +88,7 @@
   };
 
   programs.niri.enable = true;
+  services.flatpak.enable = true;
 
   # Install firefox.
   programs.firefox.enable = true;
@@ -125,11 +122,12 @@
   nerd-fonts.symbols-only
   swaylock
   nwg-look
-  bluez
-  blueman
+  swww  
   clang
-  swww
   networkmanagerapplet
+  ntfs3g
+  gparted
+  parted
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
