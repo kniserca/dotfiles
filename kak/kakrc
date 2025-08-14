@@ -1,0 +1,8 @@
+# Softwrap long lines
+add-highlighter global/ wrap -word -indent
+
+colorscheme gruvbox-dark 
+
+add-highlighter global/ show-matching -previous
+
+set-face global CurSearch +u
